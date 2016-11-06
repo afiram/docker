@@ -4,8 +4,11 @@ alpine 4.803 MB
 
 https://hub.docker.com/_/python/
 python:3.5.2-alpine 88.51 MB
+python:3.5.2-slim   198 MB
+python:3.5.2        682.5 MB
 
 Dockerfile.alpine-python3-gcc 240.4 MB
 Dockerfile.alpine-python3-uwsgi 248.4 MB
 Dockerfile.alpine-python3-uwsgi-mysqlclient 497.9 MB
+
 
