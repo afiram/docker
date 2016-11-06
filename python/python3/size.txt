@@ -9,6 +9,5 @@ python:3.5.2        682.5 MB
 
 Dockerfile.alpine-python3-gcc 240.4 MB
 Dockerfile.alpine-python3-uwsgi 97.19 MB
-Dockerfile.alpine-python3-uwsgi-mysqlclient 497.9 MB
-
+Dockerfile.alpine-python3-uwsgi-mysqlclient 97.46 MB
 
