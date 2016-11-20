@@ -11,6 +11,3 @@ cat <<EOF |$CMD
     # cp uWSGI-2.0.14-cp35-cp35m-linux_x86_64.whl
 EOF
 
-# pip install wheel
-# pip wheel mysqlclient uwsgi
-
