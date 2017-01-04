@@ -1,8 +1,0 @@
-FROM python:3.5.2-alpine
-
-RUN apk add --no-cache --virtual .build-deps \
-        g++ musl-dev linux-headers \
-    && pip install uWSGI \
-    && apk del .build-deps \
-    && rm -rf /var/cache/apk/*
-
