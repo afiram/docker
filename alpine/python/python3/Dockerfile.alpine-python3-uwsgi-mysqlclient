@@ -8,4 +8,5 @@ RUN apk add --no-cache --virtual .build-deps \
     && \
     pip install uWSGI mysqlclient && \
     apk del .build-deps && rm -rf /var/cache/apk/* && \
+    echo done.
 
