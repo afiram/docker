@@ -6,7 +6,8 @@ RUN apk add --no-cache --virtual .build-deps \
     mariadb-dev \
     mariadb-client-libs \
     && \
-    pip install uWSGI mysqlclient && \
-    apk del .build-deps && rm -rf /var/cache/apk/* && \
+    pip install --no-cache-dir uWSGI mysqlclient && \
+    apk del .build-deps && \
+    rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /root/.cache/pip/*
     echo done.
 
